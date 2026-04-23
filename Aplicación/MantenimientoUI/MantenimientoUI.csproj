@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\BebasNeue-Regular.ttf" />
+    <None Remove="Resources\CreatoDisplay-Bold.otf" />
+    <None Remove="Resources\CreatoDisplay-Thin.otf" />
+    <None Remove="Resources\Designer.otf" />
+    <None Remove="Resources\iconousuario.png" />
+    <None Remove="Resources\Logo_Automasters.png" />
+    <None Remove="Resources\Sequel_Demo.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\BebasNeue-Regular.ttf" />
+    <Resource Include="Resources\CreatoDisplay-Bold.otf" />
+    <Resource Include="Resources\CreatoDisplay-Thin.otf" />
+    <Resource Include="Resources\Designer.otf" />
+    <Resource Include="Resources\iconousuario.png" />
+    <Resource Include="Resources\Logo_Automasters.png" />
+    <Resource Include="Resources\Sequel_Demo.ttf" />
+  </ItemGroup>
+
+</Project>

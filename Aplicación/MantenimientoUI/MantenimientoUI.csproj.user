@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="InicioSesion\InicioSesion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdministrarEmpleados\AdministrarEmpleados.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdministrarRepuestos\AdministrarRepuestos.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdministrarServicios\AdministrarServicios.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdministrarProveedores\AdministrarProveedores.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ListaMantenimientos\ListaMantenimientos.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RegistrarMantenimiento\RegistrarMantenimiento.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ListaMantenimientos\DetalleMantenimiento.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ListaMantenimientos\RegistrarIncidente.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ListaMantenimientos\RegistrarPago.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdministrarEmpleados\RegistrarActualizarEmpleado.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdministrarProveedores\RegistrarActualizarProveedor.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdministrarRepuestos\RegistrarActualizarRpuesto.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdministrarServicios\RegistrarActualizarServicio.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="InicioSesion\InicioSesion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdministrarEmpleados\AdministrarEmpleados.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdministrarRepuestos\AdministrarRepuestos.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdministrarServicios\AdministrarServicios.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdministrarProveedores\AdministrarProveedores.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ListaMantenimientos\ListaMantenimientos.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RegistrarMantenimiento\RegistrarMantenimiento.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Resources.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ListaMantenimientos\DetalleMantenimiento.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ListaMantenimientos\RegistrarIncidente.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ListaMantenimientos\RegistrarPago.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdministrarEmpleados\RegistrarActualizarEmpleado.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdministrarProveedores\RegistrarActualizarProveedor.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdministrarRepuestos\RegistrarActualizarRpuesto.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdministrarServicios\RegistrarActualizarServicio.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="MantenimientoUI.VentanasDer.AdmRepuestos"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MantenimientoUI.VentanasDer"
+             mc:Ignorable="d" 
+             d:DesignHeight="900" d:DesignWidth="1600">
+    <Grid >
+        <Label HorizontalAlignment="Left" Margin="114,62,0,0"  Content="REPUESTOS" VerticalAlignment="Top" Width="478" FontSize="60" FontWeight="Bold" Style="{StaticResource Títulos}" />
+        <ComboBox x:Name="cbxFiltrarProveedor" HorizontalAlignment="Left" Margin="1176,164,0,0" VerticalAlignment="Top" Width="304" Height="50" FontSize="25"  SelectionChanged="cbxFiltrarProveedor_SelectionChanged" />
+        <Grid HorizontalAlignment="Center" Margin="0,772,0,0" VerticalAlignment="Top" Width="1056">
+            <Button x:Name="btnAñadirRepuesto" Content="Añadir Repuesto" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="272" FontSize="25"  Click="btnAñadirRepuesto_Click"/>
+            <Button x:Name="btnActualizarRepuesto" Content="Actualizar datos del repuesto" HorizontalAlignment="Left" VerticalAlignment="Center" Height="60" Width="360" FontSize="25" Click="btnActualizarRepuesto_Click" Margin="686,0,0,0" />
+        </Grid>
+        <DataGrid x:Name="dgListadoRepuestos" Margin="120,248,120,231" FontSize="24.5" IsReadOnly="True" />
+        <Label Content="Buscar (nombre):" HorizontalAlignment="Left" Margin="120,164,0,0" VerticalAlignment="Top" Height="50" Width="188" FontSize="25" FontWeight="Normal" />
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Margin="340,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" Height="50" FontSize="25"  TextChanged="txtNombre_TextChanged"/>
+        <Label Content="Filtrar por id de proveedor:" HorizontalAlignment="Left" Margin="890,171,0,0" VerticalAlignment="Top" Height="50" Width="281"  FontSize="25" FontWeight="Normal"/>
+        <Button x:Name="btnBuscar" Content="🔎" HorizontalAlignment="Left" Margin="625,164,0,0" VerticalAlignment="Top" Height="50" Width="77" FontSize="25"/>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,85 @@
+C:\Users\balfa\source\repos\BusinessLogic\bin\Debug\net8.0\BusinessLogic.deps.json
+C:\Users\balfa\source\repos\BusinessLogic\bin\Debug\net8.0\BusinessLogic.runtimeconfig.json
+C:\Users\balfa\source\repos\BusinessLogic\bin\Debug\net8.0\BusinessLogic.dll
+C:\Users\balfa\source\repos\BusinessLogic\bin\Debug\net8.0\BusinessLogic.pdb
+C:\Users\balfa\source\repos\BusinessLogic\bin\Debug\net8.0\Data.dll
+C:\Users\balfa\source\repos\BusinessLogic\bin\Debug\net8.0\Data.pdb
+C:\Users\balfa\source\repos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\balfa\source\repos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\balfa\source\repos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\balfa\source\repos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfo.cs
+C:\Users\balfa\source\repos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\balfa\source\repos\BusinessLogic\obj\Debug\net8.0\Business.CF5D6E35.Up2Date
+C:\Users\balfa\source\repos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.dll
+C:\Users\balfa\source\repos\BusinessLogic\obj\Debug\net8.0\refint\BusinessLogic.dll
+C:\Users\balfa\source\repos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.pdb
+C:\Users\balfa\source\repos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.genruntimeconfig.cache
+C:\Users\balfa\source\repos\BusinessLogic\obj\Debug\net8.0\ref\BusinessLogic.dll
+C:\Users\balfa\Downloads\MantenimientoDeVehiculos\BusinessLogic\bin\Debug\net8.0\BusinessLogic.deps.json
+C:\Users\balfa\Downloads\MantenimientoDeVehiculos\BusinessLogic\bin\Debug\net8.0\BusinessLogic.runtimeconfig.json
+C:\Users\balfa\Downloads\MantenimientoDeVehiculos\BusinessLogic\bin\Debug\net8.0\BusinessLogic.dll
+C:\Users\balfa\Downloads\MantenimientoDeVehiculos\BusinessLogic\bin\Debug\net8.0\BusinessLogic.pdb
+C:\Users\balfa\Downloads\MantenimientoDeVehiculos\BusinessLogic\bin\Debug\net8.0\Data.dll
+C:\Users\balfa\Downloads\MantenimientoDeVehiculos\BusinessLogic\bin\Debug\net8.0\Data.pdb
+C:\Users\balfa\Downloads\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\balfa\Downloads\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\balfa\Downloads\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\balfa\Downloads\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfo.cs
+C:\Users\balfa\Downloads\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\balfa\Downloads\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\Business.CF5D6E35.Up2Date
+C:\Users\balfa\Downloads\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.dll
+C:\Users\balfa\Downloads\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\refint\BusinessLogic.dll
+C:\Users\balfa\Downloads\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.pdb
+C:\Users\balfa\Downloads\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.genruntimeconfig.cache
+C:\Users\balfa\Downloads\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\ref\BusinessLogic.dll
+D:\MantenimientoDeVehiculos\BusinessLogic\bin\Debug\net8.0\BusinessLogic.deps.json
+D:\MantenimientoDeVehiculos\BusinessLogic\bin\Debug\net8.0\BusinessLogic.runtimeconfig.json
+D:\MantenimientoDeVehiculos\BusinessLogic\bin\Debug\net8.0\BusinessLogic.dll
+D:\MantenimientoDeVehiculos\BusinessLogic\bin\Debug\net8.0\BusinessLogic.pdb
+D:\MantenimientoDeVehiculos\BusinessLogic\bin\Debug\net8.0\Data.dll
+D:\MantenimientoDeVehiculos\BusinessLogic\bin\Debug\net8.0\Data.pdb
+D:\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.AssemblyReference.cache
+D:\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfoInputs.cache
+D:\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfo.cs
+D:\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.CoreCompileInputs.cache
+D:\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\Business.CF5D6E35.Up2Date
+D:\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.dll
+D:\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\refint\BusinessLogic.dll
+D:\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.pdb
+D:\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.genruntimeconfig.cache
+D:\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\ref\BusinessLogic.dll
+C:\Users\balfa\Downloads\MantenimientoDeVehiculosV1.8\MantenimientoDeVehiculos\BusinessLogic\bin\Debug\net8.0\BusinessLogic.deps.json
+C:\Users\balfa\Downloads\MantenimientoDeVehiculosV1.8\MantenimientoDeVehiculos\BusinessLogic\bin\Debug\net8.0\BusinessLogic.runtimeconfig.json
+C:\Users\balfa\Downloads\MantenimientoDeVehiculosV1.8\MantenimientoDeVehiculos\BusinessLogic\bin\Debug\net8.0\BusinessLogic.dll
+C:\Users\balfa\Downloads\MantenimientoDeVehiculosV1.8\MantenimientoDeVehiculos\BusinessLogic\bin\Debug\net8.0\BusinessLogic.pdb
+C:\Users\balfa\Downloads\MantenimientoDeVehiculosV1.8\MantenimientoDeVehiculos\BusinessLogic\bin\Debug\net8.0\Data.dll
+C:\Users\balfa\Downloads\MantenimientoDeVehiculosV1.8\MantenimientoDeVehiculos\BusinessLogic\bin\Debug\net8.0\Data.pdb
+C:\Users\balfa\Downloads\MantenimientoDeVehiculosV1.8\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\balfa\Downloads\MantenimientoDeVehiculosV1.8\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\balfa\Downloads\MantenimientoDeVehiculosV1.8\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\balfa\Downloads\MantenimientoDeVehiculosV1.8\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfo.cs
+C:\Users\balfa\Downloads\MantenimientoDeVehiculosV1.8\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\balfa\Downloads\MantenimientoDeVehiculosV1.8\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\Business.CF5D6E35.Up2Date
+C:\Users\balfa\Downloads\MantenimientoDeVehiculosV1.8\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.dll
+C:\Users\balfa\Downloads\MantenimientoDeVehiculosV1.8\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\refint\BusinessLogic.dll
+C:\Users\balfa\Downloads\MantenimientoDeVehiculosV1.8\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.pdb
+C:\Users\balfa\Downloads\MantenimientoDeVehiculosV1.8\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\BusinessLogic.genruntimeconfig.cache
+C:\Users\balfa\Downloads\MantenimientoDeVehiculosV1.8\MantenimientoDeVehiculos\BusinessLogic\obj\Debug\net8.0\ref\BusinessLogic.dll
+C:\Users\kevin\Downloads\Proyectos de Carrera\Proyecto_AppGestion-main\Aplicación\BusinessLogic\bin\Debug\net8.0\BusinessLogic.deps.json
+C:\Users\kevin\Downloads\Proyectos de Carrera\Proyecto_AppGestion-main\Aplicación\BusinessLogic\bin\Debug\net8.0\BusinessLogic.runtimeconfig.json
+C:\Users\kevin\Downloads\Proyectos de Carrera\Proyecto_AppGestion-main\Aplicación\BusinessLogic\bin\Debug\net8.0\BusinessLogic.dll
+C:\Users\kevin\Downloads\Proyectos de Carrera\Proyecto_AppGestion-main\Aplicación\BusinessLogic\bin\Debug\net8.0\BusinessLogic.pdb
+C:\Users\kevin\Downloads\Proyectos de Carrera\Proyecto_AppGestion-main\Aplicación\BusinessLogic\bin\Debug\net8.0\Data.dll
+C:\Users\kevin\Downloads\Proyectos de Carrera\Proyecto_AppGestion-main\Aplicación\BusinessLogic\bin\Debug\net8.0\Data.pdb
+C:\Users\kevin\Downloads\Proyectos de Carrera\Proyecto_AppGestion-main\Aplicación\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\kevin\Downloads\Proyectos de Carrera\Proyecto_AppGestion-main\Aplicación\BusinessLogic\obj\Debug\net8.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kevin\Downloads\Proyectos de Carrera\Proyecto_AppGestion-main\Aplicación\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\kevin\Downloads\Proyectos de Carrera\Proyecto_AppGestion-main\Aplicación\BusinessLogic\obj\Debug\net8.0\BusinessLogic.AssemblyInfo.cs
+C:\Users\kevin\Downloads\Proyectos de Carrera\Proyecto_AppGestion-main\Aplicación\BusinessLogic\obj\Debug\net8.0\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\kevin\Downloads\Proyectos de Carrera\Proyecto_AppGestion-main\Aplicación\BusinessLogic\obj\Debug\net8.0\Business.CF5D6E35.Up2Date
+C:\Users\kevin\Downloads\Proyectos de Carrera\Proyecto_AppGestion-main\Aplicación\BusinessLogic\obj\Debug\net8.0\BusinessLogic.dll
+C:\Users\kevin\Downloads\Proyectos de Carrera\Proyecto_AppGestion-main\Aplicación\BusinessLogic\obj\Debug\net8.0\refint\BusinessLogic.dll
+C:\Users\kevin\Downloads\Proyectos de Carrera\Proyecto_AppGestion-main\Aplicación\BusinessLogic\obj\Debug\net8.0\BusinessLogic.pdb
+C:\Users\kevin\Downloads\Proyectos de Carrera\Proyecto_AppGestion-main\Aplicación\BusinessLogic\obj\Debug\net8.0\BusinessLogic.genruntimeconfig.cache
+C:\Users\kevin\Downloads\Proyectos de Carrera\Proyecto_AppGestion-main\Aplicación\BusinessLogic\obj\Debug\net8.0\ref\BusinessLogic.dll

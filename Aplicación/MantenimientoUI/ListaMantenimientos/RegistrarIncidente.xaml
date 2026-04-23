@@ -1,0 +1,21 @@
+﻿<Window x:Class="MantenimientoUI.VentanasEmer.RegistrarIncidenteMantenimiento"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MantenimientoUI.VentanasEmer"
+        mc:Ignorable="d"
+        Title="RegistrarIncidenteMantenimiento" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen"
+        >
+
+    <Grid Background="#1E1E1E">
+        <Label Content="INCIDENTE" HorizontalAlignment="Left" Margin="95,33,0,0" VerticalAlignment="Top" Style="{StaticResource Títulos}" FontSize="34"/>
+        <Rectangle HorizontalAlignment="Center" Height="266" Margin="0,111,0,0" Stroke="Black" VerticalAlignment="Top" Width="610" OpacityMask="Black" Fill="#FFC7C7C7" Opacity="0.1"/>
+        <Label Content="Descripción:" HorizontalAlignment="Left" Margin="150,144,0,0" VerticalAlignment="Top"  FontSize="16"/>
+        <Label Content="Solución:" HorizontalAlignment="Left" Margin="150,239,0,0" VerticalAlignment="Top"  FontSize="16"/>
+        <TextBox x:Name="tbxDescripcion" HorizontalAlignment="Center" Margin="0,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" FontSize="16"  Height="27"/>
+        <Button x:Name="bttnRegistrarIncidente" Content="Registrar Incidente" HorizontalAlignment="Center" Margin="0,318,0,0" VerticalAlignment="Top" FontSize="16"  Height="42" Width="180" Click="bttnRegistrarIncidente_Click"/>
+        <TextBox x:Name="tbxSolucion" HorizontalAlignment="Center" Margin="0,272,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="499" FontSize="16" Height="27"/>
+    </Grid>
+</Window>

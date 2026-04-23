@@ -1,0 +1,20 @@
+﻿MantenimientoUI
+
+
+winexe
+C#
+.cs
+C:\Users\kevin\Downloads\Proyectos de Carrera\Proyecto_AppGestion-main\Aplicación\MantenimientoUI\obj\Debug\net8.0-windows\
+MantenimientoUI
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+C:\Users\kevin\Downloads\Proyectos de Carrera\Proyecto_AppGestion-main\Aplicación\MantenimientoUI\App.xaml
+161385720395
+
+18-1141162203
+229-1371029582
+AdministrarEmpleados\AdministrarEmpleados.xaml;AdministrarEmpleados\RegistrarActualizarEmpleado.xaml;AdministrarProveedores\AdministrarProveedores.xaml;AdministrarProveedores\RegistrarActualizarProveedor.xaml;AdministrarRepuestos\AdministrarRepuestos.xaml;AdministrarRepuestos\RegistrarActualizarRpuesto.xaml;AdministrarServicios\AdministrarServicios.xaml;AdministrarServicios\RegistrarActualizarServicio.xaml;InicioSesion\InicioSesion.xaml;ListaMantenimientos\DetalleMantenimiento.xaml;ListaMantenimientos\ListaMantenimientos.xaml;ListaMantenimientos\RegistrarIncidente.xaml;ListaMantenimientos\RegistrarPago.xaml;MainWindow.xaml;RegistrarMantenimiento\RegistrarMantenimiento.xaml;Resources\Resources.xaml;
+
+False
+

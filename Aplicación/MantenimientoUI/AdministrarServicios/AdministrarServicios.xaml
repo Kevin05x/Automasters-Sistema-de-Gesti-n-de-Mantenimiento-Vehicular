@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="MantenimientoUI.VentanasDer.AdmServices"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MantenimientoUI.VentanasDer"
+             mc:Ignorable="d" 
+             d:DesignHeight="900" d:DesignWidth="1600">
+    <Grid >
+        <Grid Margin="10,10,-20,-10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="7*" />
+                <ColumnDefinition Width="599*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- DataGrid -->
+            <DataGrid Name="ServiciosDataGrid"  Margin="139,187,113,262" Grid.Column="1" IsReadOnly="True" >
+                <!-- Define your columns here -->
+            </DataGrid>
+            <Label Grid.Column="1" Content="Servicios" FontSize="70" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="113,47,0,0" Height="102" Width="601" FontWeight="Bold" Style="{StaticResource Títulos}"/>
+
+            <Label Content="Buscar (nombre):" HorizontalAlignment="Left" Margin="911,80,0,0" VerticalAlignment="Top" Height="50" Width="188" FontSize="25" FontWeight="Normal" Grid.Column="1" />
+            <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Margin="1078,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" Height="50" FontSize="25"  TextChanged="txtBuscar_TextChanged" Grid.Column="1"/>
+
+
+            <!-- Botones -->
+            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,760,0,0" Width="551" Height="68">
+                <Button x:Name="btnAñadirServicio" Content="Añadir Servicio" Width="200" Margin="10" Click="btnAñadirServicio_Click" />
+                <Button x:Name="ActualizarServicio" Content="Actualizar datos del servicio" Width="304" Click="ActualizarServicio_Click"/>
+            </StackPanel>
+            <Button x:Name="btnBuscar" Content="🔎" HorizontalAlignment="Left" Margin="1363,73,0,0" VerticalAlignment="Top" Height="50" Width="77" FontSize="25" Grid.Column="1"/>
+
+
+            <!-- Botón Ordenar -->
+        </Grid>
+    </Grid>
+</UserControl>

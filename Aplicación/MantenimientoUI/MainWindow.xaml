@@ -1,0 +1,97 @@
+﻿<Window x:Class="MantenimientoUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MantenimientoUI"
+        mc:Ignorable="d"
+        Title="AutomastersApplication" Height="900" Width="1600"
+        Icon="Resources/Logo_Automasters.png ">
+
+    <Window.Resources>
+        <Style x:Key="ButtonCerrarSes" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Image Source="/Resources/iconousuario.png"/>
+                            <Popup x:Name="popupOptions" Placement="Bottom" StaysOpen="False" AllowsTransparency="True">
+                                <Border Background="#2E2E2E" Padding="10" CornerRadius="5" BorderBrush="DarkRed" BorderThickness="1">
+                                    <StackPanel>
+                                        <Button Content="Cerrar Sesión" Click="CerrarSesClick"   Foreground="White"/>
+                                        <Button Content="Cerrar Aplicación" Click="CerrarAppClick"  Foreground="White"/>
+                                    </StackPanel>
+                                </Border>
+                            </Popup>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="popupOptions" Property="IsOpen" Value="True"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid x:Name="GrdTodo" Background="#1E1E1E">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition MinWidth="350" MaxWidth="400"/>
+            <ColumnDefinition MinWidth="2" MaxWidth="2"/>
+            <ColumnDefinition MinWidth="800" />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+
+            <Grid.RowDefinitions>
+                <RowDefinition MinHeight="150" MaxHeight="250" Height="*"/>
+                <RowDefinition MinHeight="300" MaxHeight="500" Height="*"/>
+                <RowDefinition MinHeight="100" MaxHeight="150" Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Image Source="/Resources/Logo_Automasters.png " Margin="0,20,0,0"/>
+
+
+            <DockPanel Grid.Row="1" Background="Transparent">
+
+                <StackPanel DockPanel.Dock="Left" Background="#3E3E3E" VerticalAlignment="Center" Margin="20">
+
+                    <Button Content="Registrar Mantenimiento"   Click="Button_Click" Style="{StaticResource BotonesInStackPanel}"  />
+
+                    <Button Content="Lista de Mantenimientos"  Click="Button_Click" />
+
+                    <Button x:Name="btnOcul1" Content="Administrar empleados" Click="Button_Click" Style="{StaticResource BotonesInStackPanel}"/>
+
+                    <Button x:Name="btnOcul2" Content="Administrar repuestos" Click="Button_Click"  Style="{StaticResource BotonesInStackPanel}"/>
+
+                    <Button x:Name="btnOcul3" Content="Administrar servicios"  Click="Button_Click"  Style="{StaticResource BotonesInStackPanel}"/>
+
+                    <Button x:Name="btnOcul4" Content="Administrar proveedores" Click="Button_Click" Style="{StaticResource BotonesInStackPanel}" />
+
+                </StackPanel>
+
+            </DockPanel>
+
+
+            <StackPanel Grid.Row="2" Margin="20" Orientation="Horizontal" VerticalAlignment="Center"  HorizontalAlignment="Center" Background="Transparent">
+                <Button Width="50" Height="50" Style="{StaticResource ButtonCerrarSes}"/>
+                <Label x:Name="lblUserName" Content="Nombre" FontSize="36" Margin="10,0,0,0"/>
+
+            </StackPanel>
+
+        </Grid>
+
+        <Rectangle Fill="Gray" Grid.Column="1" Margin="0,60,0,60"/>
+
+        <Grid x:Name="GrdVistaDer" Grid.Column="2" Width="Auto" Height="Auto" Margin="2">
+            <Grid.Background>
+                <ImageBrush x:Name="LogoFondoAutomasters" ImageSource="/Resources/Logo_Automasters.png" Opacity="0.5"/>
+            </Grid.Background>
+        </Grid>
+
+
+
+
+
+    </Grid>
+</Window>

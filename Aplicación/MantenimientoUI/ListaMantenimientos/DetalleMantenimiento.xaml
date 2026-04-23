@@ -1,0 +1,45 @@
+﻿<Window x:Class="MantenimientoUI.VentanasEmer.DetalleMantenimiento"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MantenimientoUI.VentanasEmer"
+        mc:Ignorable="d"
+        Title="DetalleMantenimiento" Height="500" Width="850"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+
+        <Style TargetType="ListBox">
+            <Setter Property="Background" Value="DarkGray"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontSize" Value="18"/>
+        </Style>
+        
+    </Window.Resources>
+    <Grid Background="#1e1e1e">
+        <Label Content="DETALLE MANTENIMIENTO" HorizontalAlignment="Left" Margin="23,10,0,0" VerticalAlignment="Top"  FontSize="34" Style="{StaticResource Títulos}"/>
+        <Label Content="Propietario:" HorizontalAlignment="Left" Margin="23,78,0,0" VerticalAlignment="Top"  FontSize="16"/>
+        <Label x:Name="lbPropietario" Content="" HorizontalAlignment="Left" Margin="115,77,0,0" VerticalAlignment="Top"  FontSize="16" BorderBrush="White" BorderThickness="1,1,1,1" Width="248" Height="28" FontFamily="/Resources/#Creato Display" Foreground="LightGray"/>
+        <Label Content="Características del vehículo:" HorizontalAlignment="Left" Margin="23,120,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Fecha de inicio:" HorizontalAlignment="Left" Margin="490,77,0,0" VerticalAlignment="Top"  FontSize="16"/>
+        <Label Content="Fecha de fin:" HorizontalAlignment="Left" Margin="492,110,0,0" VerticalAlignment="Top"  FontSize="16"/>
+        <Label Content="Observaciones:" HorizontalAlignment="Left" Margin="490,176,0,0" VerticalAlignment="Top"  FontSize="16"/>
+        <Label Content="Estado:" HorizontalAlignment="Left" Margin="492,143,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Incidentes:" HorizontalAlignment="Left" Margin="492,337,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Repuestos:" HorizontalAlignment="Left" Margin="268,120,0,0" VerticalAlignment="Top"  FontSize="16"/>
+        <Label Content="Empleados a cargo:" HorizontalAlignment="Left" Margin="492,254,0,0" VerticalAlignment="Top"  FontSize="16"/>
+        <Label Content="Servicios:" HorizontalAlignment="Left" Margin="268,274,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Canvas Width="800" Height="450" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <ListBox x:Name="lbxCaracteristicasVehiculo" Margin="23,153,561,23" Width="220" Height="300" FontFamily="/Resources/#Creato Display" />
+            <ListBox x:Name="lbxRepuestos" Margin="268,153,328,165"  Height="120" Width="208"  FontFamily="/Resources/#Creato Display" />
+            <ListBox x:Name="lbxServicios" Margin="268,302,328,23"  Height="120" Width="208"   FontFamily="/Resources/#Creato Display" />
+            <ListBox x:Name="lbxObservaciones" Margin="492,204,23,185"  Width="300"  MinHeight="40" MaxHeight="40" FontFamily="/Resources/#Creato Display" />
+            <ListBox x:Name="lbxEmpleadosCargo" Margin="492,288,23,99" Width="300"  MinHeight="40" MaxHeight="40" FontFamily="/Resources/#Creato Display" />
+            <ListBox x:Name="lbxIncidentes" Margin="492,365,23,23" Width="300" MinHeight="40" MaxHeight="40" FontFamily="/Resources/#Creato Display" />
+        </Canvas>
+        <Label x:Name="lbFechaInicio" Content="" HorizontalAlignment="Left" Margin="607,78,0,0" VerticalAlignment="Top" FontFamily="/Resources/#Creato Display"  FontSize="16" BorderBrush="White" BorderThickness="1,1,1,1" Width="170" Height="28" Foreground="LightGray"/>
+        <Label x:Name="lbFechaFin" Content="" HorizontalAlignment="Left" Margin="607,110,0,0" VerticalAlignment="Top" FontFamily="/Resources/#Creato Display"  FontSize="16" BorderBrush="White" BorderThickness="1,1,1,1" Width="170" Height="28" Foreground="LightGray"/>
+        <Label x:Name="lbEstado" Content="" HorizontalAlignment="Left" Margin="607,143,0,0" VerticalAlignment="Top" FontFamily="/Resources/#Creato Display"  FontSize="16" BorderBrush="White" BorderThickness="1,1,1,1" Width="170" Height="28" Foreground="LightGray"/>
+    </Grid>
+</Window>

@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="MantenimientoUI.VentanasDer.ListaMantenimiento"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MantenimientoUI.VentanasDer"
+             mc:Ignorable="d" 
+             d:DesignHeight="900" d:DesignWidth="1600"
+             VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+    <Grid >
+        <Label Content="MANTENIMIENTOS" HorizontalAlignment="Left" Margin="86,70,0,0" VerticalAlignment="Top"  FontSize="75" Style="{StaticResource Títulos}"/>
+        <DataGrid x:Name="DGdMantenimientos" IsReadOnly="True" VerticalAlignment="Center" HorizontalAlignment="Center"  FontSize="25" Height="500" Width="1450" MouseDoubleClick="DGdMantenimientos_MouseDoubleClick" FontWeight="Light"/>
+        <ComboBox x:Name="cmbxFiltro" HorizontalAlignment="Center" Margin="1150,130,0,0" VerticalAlignment="Top" Width="219"  FontSize="30" Height="48" SelectionChanged="cmbxFiltro_SelectionChanged">
+            <ComboBoxItem Content="Todos"/>
+            <ComboBoxItem Content="Completado"/>
+            <ComboBoxItem Content="En proceso"/>
+            <ComboBoxItem Content="Pagado"/>
+            <ComboBoxItem Content="Pendiente de pago"/>
+
+        </ComboBox>
+        <Button x:Name="bttnRegistrarIncidente" Content="Registrar Incidente" HorizontalAlignment="Left" Margin="361,756,0,0" VerticalAlignment="Top"  FontSize="30" Height="94" Width="281" Click="bttnRegistrarIncidente_Click"/>
+        <Button x:Name="bttnRegistrarPago" Content="Registrar Pago" HorizontalAlignment="Left" Margin="953,756,0,0" VerticalAlignment="Top" FontSize="30" Height="94" Width="305" Click="bttnRegistrarPago_Click" />
+
+    </Grid>
+
+</UserControl>
